@@ -1,20 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Dev News</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <nav>
-            <h1 id="principal-title">The Dev News</h1>
-        </nav>
+      <nav>
+        <h1 id="principal-title">The Dev News</h1>
+      </nav>
     </header>
-    
-</body>
+
+    <main>
+      <!--Seção do Banner Principal -->
+      <article>
+        <section class="banner">
+          <img src="./assets/banners/bannerarticle.svg" alt="banner-article" />
+        </section>
+        <!-- Seção dos cards -->
+        <div class="title-section-cards">
+          <h2>Posts mais recentes</h2>
+          <a href="#">Ver Mais</a>
+        </div>
+        <section class="cards">
+          <div class="card">
+            <img src="./assets/cards/image1.svg" alt="" />
+            <div class="card-text">
+              <p class="green">desenvolvimento</p>
+              <h2>Desenvolvimento mobile</h2>
+              <p class="gray"><b>By</b> Eder Souza</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. In vitae urna commodo
+                amet congue integer dapibus. Interdum semper mauris convallis
+                fusce enim odio. Vitae montes ridiculus felis.
+              </p>
+              <p class="gray">29 de Setembro 2024</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./assets/cards/image2.svg" alt="" />
+            <div class="card-text">
+              <p class="green">saude</p>
+              <h2>Balancear vida profissional e pessoa</h2>
+              <p class="gray"><b>By</b> Oliane Soares</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Et consectetur at
+                consectetur sed nisl tempor.
+              </p>
+              <p class="gray">20 de Setembro 2024</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./assets/cards/image3.svg" alt="" />
+            <div class="card-text">
+              <p class="green">desenvolvimento</p>
+              <h2>Configurando VSCode</h2>
+              <p class="gray"><b>By</b> Eder Souza</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Et consectetur at
+                consectetur sed nisl tempor.
+              </p>
+              <p class="gray">20 de Setembro 2024</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./assets/cards/image4.svg" alt="" />
+            <div class="card-text">
+              <p class="green">produtividade</p>
+              <h2>2 monitores ou 1 ultrawide?</h2>
+              <p class="gray"><b>By</b> Oliane Soares</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Et consectetur at
+                consectetur sed nisl tempor.
+              </p>
+              <p class="gray">20 de Setembro 2024</p>
+            </div>
+          </div>
+        </section>
+      </article>
+      <aside class="side-content"></aside>
+    </main>
+  </body>
 </html>

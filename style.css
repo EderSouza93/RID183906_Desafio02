@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-green: #02A28F;
+    --color-white: #ffffff;
+}
+
 html{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -21,18 +26,98 @@ header{
     height: 4.3rem;
     display: flex;
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
-    background-color: #02A28F;
+    background-color: var(--color-green);
 }
 
-nav{
+nav {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 80vw;
-    margin: auto;
+    width: 100vw;
+    margin: .81rem 9.75rem ;
 }
 
-h1{
-    color: #ffffff;
+h1 {
+    font-size: 2.75rem;
+    color: var(--color-white);
 }
 
+h2 {
+    font-size: 1.25rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4.3rem 0rem;
+}
+
+article {
+    flex-basis: 60%;
+}
+
+.banner {
+    margin: 3.2rem 0rem 0rem 9.6rem;
+    
+}
+
+.title-section-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-white);
+    padding: 0rem 1.5rem;
+    margin: 1.5rem 0rem 0rem 9.75rem;
+    width: 49rem;
+    height: 3.5rem;
+    background-color: var(--color-green);
+    border-radius: .5rem;
+}
+
+.title-section-cards > a {
+    color: var(--color-white);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: .68rem 0rem 0rem 9.6rem;
+    gap: 1.5rem;
+}
+
+.card {
+    margin: 0rem .3rem;
+    border-radius: 1.2rem;
+    border-color: #616161;
+    box-shadow: 1rem 1rem 1rem 1rem rgba(0, 0, 0, 0.1);    
+}
+
+.card > img {
+    width: 100%;
+}
+
+.card-text {
+    margin: .93rem 1rem;
+}
+
+.card-text > p, h2 {
+    margin-bottom: .5rem;
+}
+
+.gray{
+    color: #616161;
+}
+
+.green {
+    color: var(--color-green);
+}
+
+
+
+
+.side-content {
+    flex-basis: 35%;
+    display: flex;
+    flex-direction: column;
+}
