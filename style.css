@@ -16,7 +16,7 @@ html{
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 header{
@@ -49,8 +49,8 @@ h2 {
 main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 4.3rem 0rem;
+    justify-content: space-around;
+    padding: 4.3rem 0rem 0rem 0rem;
 }
 
 article {
@@ -68,8 +68,8 @@ article {
     align-items: center;
     color: var(--color-white);
     padding: 0rem 1.5rem;
-    margin: 1.5rem 0rem 0rem 9.75rem;
-    width: 49rem;
+    margin: 0rem 0rem 0rem 11rem;
+    width: 53.5rem;
     height: 3.5rem;
     background-color: var(--color-green);
     border-radius: .5rem;
@@ -82,7 +82,8 @@ article {
 .cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: .68rem 0rem 0rem 9.6rem;
+    width: 53.5rem;
+    margin: .68rem 0rem 0rem 11rem;
     gap: 1.5rem;
 }
 
@@ -113,11 +114,22 @@ article {
     color: var(--color-green);
 }
 
-
-
-
 .side-content {
     flex-basis: 35%;
     display: flex;
     flex-direction: column;
 }
+
+.title-aside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-white);
+    padding: 0rem 1.6rem;
+    margin: 4rem .8rem;
+    width: 25.7rem;
+    height: 3.5rem;
+    background-color: var(--color-green);
+    border-radius: .7rem;
+}
+
