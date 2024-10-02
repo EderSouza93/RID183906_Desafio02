@@ -126,10 +126,25 @@ article {
     align-items: center;
     color: var(--color-white);
     padding: 0rem 1.6rem;
-    margin: 4rem .8rem;
+    margin: 4rem 0rem 1.4rem;
     width: 25.7rem;
     height: 3.5rem;
     background-color: var(--color-green);
     border-radius: .7rem;
+}
+
+.card-aside {
+    display: flex;
+    justify-content: flex-start;
+    margin: 1.4rem 0rem;
+    padding: .9rem .8rem;
+    width: 25.7rem;
+    border-radius: 1.2rem;
+    border-color: #616161;
+    box-shadow: 1rem 1rem 1rem 1rem rgba(0, 0, 0, 0.1); 
+}
+
+.card-text-aside {
+    margin-left: .8rem;
 }
 
