@@ -126,7 +126,7 @@ article {
     align-items: center;
     color: var(--color-white);
     padding: 0rem 1.6rem;
-    margin: 4rem 0rem 1.4rem;
+    margin: 4rem 0rem 0rem;
     width: 25.7rem;
     height: 3.5rem;
     background-color: var(--color-green);
@@ -148,3 +148,29 @@ article {
     margin-left: .8rem;
 }
 
+.container-category {
+    margin: 1.1rem 0rem;
+    width: 25.7rem;
+}
+
+.container-category:last-child > .title-aside{
+    margin-top: 0rem;
+}
+
+.category-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    margin: 1rem 0rem;
+}
+
+.category-name {
+    display:flex;
+    align-items: center;
+}
+
+.category-name:before {
+    content: '>';
+    margin-right: .5rem;
+}
