@@ -14,128 +14,140 @@
   </head>
   <body>
     <header>
-      <nav>
+      <div class="container">
         <h1 id="principal-title">The Dev News</h1>
-      </nav>
+      </div>
     </header>
 
     <main>
-      <!--Seção do Banner Principal -->
-      <article>
-        <section class="banner">
-          <img src="./assets/banners/bannerarticle.svg" alt="banner-article" />
+      <div class="container">
+        <section class="content-area">
+          <article class="banner-article">
+            <img src="./assets/banners/bannerarticle.svg" alt="banner-article" />
+          </article>
+          <!-- Seção dos cards -->
+          <section class="post-section">
+            <div class="section-header">
+              <h2>Posts mais recentes</h2>
+              <a href="#">Ver Mais</a>
+            </div>
+            <div class="posts-grid">
+              <article class="card">
+                <img src="./assets/cards/image1.svg" alt="" />
+                <div class="card-text">
+                  <p class="tag">desenvolvimento</p>
+                  <h3>Desenvolvimento mobile</h3>
+                  <p class="author"><b>By</b> Eder Souza</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. In vitae urna commodo
+                    amet congue integer dapibus. Interdum semper mauris convallis
+                    fusce enim odio. Vitae montes ridiculus felis.
+                  </p>
+                  <p class="date">29 de Setembro 2024</p>
+                </div>
+              </article>
+              <article class="card">
+                <img src="./assets/cards/image2.svg" alt="" />
+                <div class="card-text">
+                  <p class="tag">saude</p>
+                  <h3>Balancear vida profissional e pessoa</h3>
+                  <p class="author"><b>By</b> Oliane Soares</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Et consectetur at
+                    consectetur sed nisl tempor.
+                  </p>
+                  <p class="date">20 de Setembro 2024</p>
+                </div>
+              </article>
+              <article class="card">
+                <img src="./assets/cards/image3.svg" alt="" />
+                <div class="card-text">
+                  <p class="tag">desenvolvimento</p>
+                  <h3>Configurando VSCode</h3>
+                  <p class="author"><b>By</b> Eder Souza</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Et consectetur at
+                    consectetur sed nisl tempor.
+                  </p>
+                  <p class="date">20 de Setembro 2024</p>
+                </div>
+              </article>
+              <article class="card">
+                <img src="./assets/cards/image4.svg" alt="" />
+                <div class="card-text">
+                  <p class="tag">produtividade</p>
+                  <h3>2 monitores ou 1 ultrawide?</h3>
+                  <p class="author"><b>By</b> Oliane Soares</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Et consectetur at
+                    consectetur sed nisl tempor.
+                  </p>
+                  <p class="date">20 de Setembro 2024</p>
+                </div>
+              </article>
+            </div>
+          </section>
         </section>
-        <!-- Seção dos cards -->
-        <div class="title-section-cards">
-          <h2>Posts mais recentes</h2>
-          <a href="#">Ver Mais</a>
-        </div>
-        <section class="cards">
-          <div class="card">
-            <img src="./assets/cards/image1.svg" alt="" />
-            <div class="card-text">
-              <p class="green">desenvolvimento</p>
-              <h2>Desenvolvimento mobile</h2>
-              <p class="gray"><b>By</b> Eder Souza</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur. In vitae urna commodo
-                amet congue integer dapibus. Interdum semper mauris convallis
-                fusce enim odio. Vitae montes ridiculus felis.
-              </p>
-              <p class="gray">29 de Setembro 2024</p>
-            </div>
+      </div>
+    
+      <aside class="sidebar">
+        <!-- Posts Populares -->
+        <section class="popular-posts">
+          <div class="section-header">
+            <h2>Posts populares</h2>
           </div>
-          <div class="card">
-            <img src="./assets/cards/image2.svg" alt=""/>
-            <div class="card-text">
-              <p class="green">saude</p>
-              <h2>Balancear vida profissional e pessoa</h2>
-              <p class="gray"><b>By</b> Oliane Soares</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur. Et consectetur at
-                consectetur sed nisl tempor.
-              </p>
-              <p class="gray">20 de Setembro 2024</p>
+          <div class="card-content">
+            <div class="card">
+              <img src="./assets/cards/imgaside.svg" alt="" />
+              <div class="card-text-aside">
+                <h3>Desevolvimento atual</h3>
+                <p class="date">20 de Setembro 2024</p>
+              </div>
             </div>
-          </div>
-          <div class="card">
-            <img src="./assets/cards/image3.svg" alt="" />
-            <div class="card-text">
-              <p class="green">desenvolvimento</p>
-              <h2>Configurando VSCode</h2>
-              <p class="gray"><b>By</b> Eder Souza</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur. Et consectetur at
-                consectetur sed nisl tempor.
-              </p>
-              <p class="gray">20 de Setembro 2024</p>
+            <div class="card">
+              <img src="./assets/cards/imgaside2.svg" alt="" />
+              <div class="card-text-aside">
+                <h3>GitLab vs GitHub</h3>
+                <p class="date">22 de Setembro 2024</p>
+              </div>
             </div>
-          </div>
-          <div class="card">
-            <img src="./assets/cards/image4.svg" alt="" />
-            <div class="card-text">
-              <p class="green">produtividade</p>
-              <h2>2 monitores ou 1 ultrawide?</h2>
-              <p class="gray"><b>By</b> Oliane Soares</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur. Et consectetur at
-                consectetur sed nisl tempor.
-              </p>
-              <p class="gray">20 de Setembro 2024</p>
+            <div class="card">
+              <img src="./assets/cards/imgaside3.svg" alt="" />
+              <div class="card-text-aside">
+                <h3>Café atrapalha?</h3>
+                <p class="date">22 de Setembro 2024</p>
+              </div>
             </div>
           </div>
         </section>
-      </article>
-      <aside class="side-content">
-        <div class="title-aside">
-          <h2>Posts populares</h2>
-        </div>
-        <div class="container-cards">
-          <div class="card-aside">
-            <img src="./assets/cards/imgaside.svg" alt="" />
-            <div class="card-text-aside">
-              <h3>Desevolvimento atual</h3>
-              <p class="gray">20 de Setembro 2024</p>
-            </div>
-          </div>
-          <div class="card-aside">
-            <img src="./assets/cards/imgaside2.svg" alt="" />
-            <div class="card-text-aside">
-              <h3>GitLab vs GitHub</h3>
-              <p class="gray">22 de Setembro 2024</p>
-            </div>
-          </div>
-          <div class="card-aside">
-            <img src="./assets/cards/imgaside3.svg" alt="" />
-            <div class="card-text-aside">
-              <h3>Café atrapalha?</h3>
-              <p class="gray">22 de Setembro 2024</p>
-            </div>
-          </div>
-        </div>
-        <div class="container-category">
-          <div class="title-aside">
+
+        <!-- Categorias -->
+        <section class="categories">
+          <div class="section-header">
             <h2>Categorias</h2>
           </div>
-          <a href="#" class="category-item gray">
+          <a href="#" class="category-link">
             <span class="category-name">saude</span>
             <span class="category-number">(2)</span>
           </a>
-          <a href="#" class="category-item gray">
-            <span class="category-name">desenvolvimento</span>
-            <span class="category-number">(2)</span>
-          </a>
-          <a href="#" class="category-item gray">
-            <span class="category-name">produtividade</span>
-            <span class="category-number">(2)</span>
-          </a>
-          <a href="#" class="category-item gray">
-            <span class="category-name">opniao</span>
-            <span class="category-number">(1)</span>
-          </a>
-        </div>
+          <nav>
+            <a href="#" class="category-link">
+              <span class="category-name">desenvolvimento</span>
+              <span class="category-number">(2)</span>
+            </a>
+            <a href="#" class="category-link">
+              <span class="category-name">produtividade</span>
+              <span class="category-number">(2)</span>
+            </a>
+            <a href="#" class="category-link">
+              <span class="category-name">opniao</span>
+              <span class="category-number">(1)</span>
+            </a>
+          </nav>
+        </section>
       </aside>
     </main>
+
     <footer>
       <p>Copyright@The Dev News</p>
     </footer>
