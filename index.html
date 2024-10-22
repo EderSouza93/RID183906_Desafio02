@@ -14,75 +14,79 @@
   </head>
   <body>
     <header>
-      <div class="container-header">
-        <h1 id="principal-title">The Dev News</h1>
-      </div>
+      <nav>
+        <p class="logo">The Dev News</p>
+      </nav>
     </header>
 
     <main>
-      <div class="container">
-        <section class="content-area">
-          <article class="banner-article">
-            <img src="./assets/banners/bannerarticle.svg" alt="banner-article" />
-          </article>
+      <div class="container1">
+        <section class="banner-article">
+          <div class="text-banner">
+            <p class="white">opnião</p>
+            <h1 class="white"> Como é Ser um desenvolvedor</h1>
+            <p class="author white" ><b>By</b> Eder Souza</p>
+          </div>
+          <div class="gradient-overlay"></div>
+        </section>
           <!-- Seção dos cards -->
           <section class="post-section">
-            <div class="section-header">
+            <header class="section-header">
               <h2>Posts mais recentes</h2>
-              <a href="#">Ver Mais</a>
-            </div>
+              <a class="white see-more" href="#">Ver Mais</a>
+            </header>
             <div class="posts-grid">
               <article class="card">
                 <img src="./assets/cards/image1.svg" alt="" />
                 <div class="card-text">
                   <p class="tag">desenvolvimento</p>
-                  <h3>Desenvolvimento mobile</h3>
-                  <p class="author"><b>By</b> Eder Souza</p>
-                  <p>
+                  <h4>Desenvolvimento mobile</h4>
+                  <p class="author gray"><b>By</b> Eder Souza</p>
+                  <p class="content-card">
                     Lorem ipsum dolor sit amet consectetur. In vitae urna commodo
                     amet congue integer dapibus. Interdum semper mauris convallis
                     fusce enim odio. Vitae montes ridiculus felis.
                   </p>
-                  <p class="date">29 de Setembro 2024</p>
+                  <p class="date gray">29 de Setembro 2024</p>
                 </div>
               </article>
               <article class="card">
                 <img src="./assets/cards/image2.svg" alt="" />
                 <div class="card-text">
                   <p class="tag">saude</p>
-                  <h3>Balancear vida profissional e pessoa</h3>
-                  <p class="author"><b>By</b> Oliane Soares</p>
-                  <p>
+                  <h4>Balancear vida profissional e pessoa</h4>
+                  <p class="author gray"><b>By</b> Oliane Soares</p>
+                  <p class="content-card">
                     Lorem ipsum dolor sit amet consectetur. Et consectetur at
                     consectetur sed nisl tempor.
                   </p>
-                  <p class="date">20 de Setembro 2024</p>
+                  <p class="date gray">20 de Setembro 2024</p>
                 </div>
               </article>
               <article class="card">
                 <img src="./assets/cards/image3.svg" alt="" />
                 <div class="card-text">
                   <p class="tag">desenvolvimento</p>
-                  <h3>Configurando VSCode</h3>
-                  <p class="author"><b>By</b> Eder Souza</p>
-                  <p>
+                  <h4>Configurando VSCode</h4>
+                  <p class="author gray"><b>By</b> Eder Souza</p>
+                  <p class="content-card">
                     Lorem ipsum dolor sit amet consectetur. Et consectetur at
                     consectetur sed nisl tempor.
                   </p>
-                  <p class="date">20 de Setembro 2024</p>
+                  <p class="date gray">20 de Setembro 2024</p>
                 </div>
               </article>
               <article class="card">
                 <img src="./assets/cards/image4.svg" alt="" />
                 <div class="card-text">
                   <p class="tag">produtividade</p>
-                  <h3>2 monitores ou 1 ultrawide?</h3>
-                  <p class="author"><b>By</b> Oliane Soares</p>
-                  <p>
+                  <h4>2 monitores ou 1 ultrawide?</h4>
+                  <p class="author gray"><b>By</b> Oliane Soares</p>
+                  <p class="content-card">
                     Lorem ipsum dolor sit amet consectetur. Et consectetur at
                     consectetur sed nisl tempor.
                   </p>
-                  <p class="date">20 de Setembro 2024</p>
+                  <p class="date gray">20 de Setembro 2024</p>
                 </div>
               </article>
             </div>
@@ -90,28 +94,28 @@
         </section>
       </div>
     
-      <aside class="sidebar">
+      <div class="container2">
         <!-- Posts Populares -->
         <section class="popular-posts">
-          <div class="section-header">
+          <header class="section-header">
             <h2>Posts populares</h2>
-          </div>
-          <div class="card-content">
-            <div class="card">
+          </header>
+          <div>
+            <div class="side-card">
               <img src="./assets/cards/imgaside.svg" alt="" />
               <div class="card-text-aside">
                 <h3>Desevolvimento atual</h3>
                 <p class="date">20 de Setembro 2024</p>
               </div>
             </div>
-            <div class="card">
+            <div class="side-card">
               <img src="./assets/cards/imgaside2.svg" alt="" />
               <div class="card-text-aside">
                 <h3>GitLab vs GitHub</h3>
                 <p class="date">22 de Setembro 2024</p>
               </div>
             </div>
-            <div class="card">
+            <div class="side-card">
               <img src="./assets/cards/imgaside3.svg" alt="" />
               <div class="card-text-aside">
                 <h3>Café atrapalha?</h3>
@@ -123,29 +127,35 @@
 
         <!-- Categorias -->
         <section class="categories">
-          <div class="section-header">
+          <header class="section-header">
             <h2>Categorias</h2>
+          </header>
+          <div class="category-itens">
+            <div class="item">
+              <span> > saude </span>
+              <span>(1) </span>
+            </div> 
           </div>
-          <a href="#" class="category-link">
-            <span class="category-name">saude</span>
-            <span class="category-number">(2)</span>
-          </a>
-          <nav>
-            <a href="#" class="category-link">
-              <span class="category-name">desenvolvimento</span>
-              <span class="category-number">(2)</span>
-            </a>
-            <a href="#" class="category-link">
-              <span class="category-name">produtividade</span>
-              <span class="category-number">(2)</span>
-            </a>
-            <a href="#" class="category-link">
-              <span class="category-name">opniao</span>
-              <span class="category-number">(1)</span>
-            </a>
-          </nav>
+          <div class="category-itens">
+            <div class="item">
+              <span> > saude </span>
+              <span>(1) </span>
+            </div> 
+          </div>
+          <div class="category-itens">
+            <div class="item">
+              <span> > desenvolvimento </span>
+              <span>(2) </span>
+            </div> 
+          </div>
+          <div class="category-itens">
+            <div class="item">
+              <span> > produtividade </span>
+              <span>(1) </span>
+            </div> 
+          </div>
         </section>
-      </aside>
+      </div>
     </main>
 
     <footer>
